@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RTRootNavigationController'
+  s.name             = 'RTRootNavigationController_copy'
   # s.version          = `git describe --abbrev=0`.strip
    s.version          = '1.1'
   s.summary          = 'Transparently make every view controller has its own navigation bar'
@@ -18,11 +18,11 @@ This project just help develops to solve this problem in a tricky way, develops 
 you can have each view controller a individual navigation bar.
                        DESC
 
-  s.homepage         = 'https://github.com/rickytan/RTRootNavigationController'
+  s.homepage         = 'https://github.com/JoshuaFeng5/RTRootNavigationController.git'
   s.screenshots      = 'https://raw.githubusercontent.com/rickytan/RTRootNavigationController/master/ScreenShot/1.png', 'https://raw.githubusercontent.com/rickytan/RTRootNavigationController/master/ScreenShot/2.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'rickytan' => 'ricky.tan.xin@gmail.com' }
-  s.source           = { :git => 'https://github.com/rickytan/RTRootNavigationController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/JoshuaFeng5/RTRootNavigationController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
